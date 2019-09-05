@@ -10,39 +10,31 @@ The file "liri.js" will send requests using the `axios` package to the Bands in 
 
 "liri.js" can take in one the following commands:
 
-1. concert-this
-2. spotify-this-song
-3. movie-this
-4. do-what-it-says
-
-1. `node liri.js concert-this <artist/band name here>`
+1. **concert-this**
+`node liri.js concert-this <artist/band name here>`
 
 * This will search the Bands in Town Artist Events API (`"https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"`) for an artist and render the following information about each event to the terminal:
 * Name of the venue
 * Venue location
 * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-2. `node liri.js spotify-this-song '<song name here>'`
+2. **spotify-this-song**
+`node liri.js spotify-this-song '<song name here>'`
 
-* This will show the following information about the song in your terminal/bash window
-
+* This will show the following information about the song in your terminal/bash window:
 * Artist(s)
-
 * The song's name
-
 * A preview link of the song from Spotify
-
 * The album that the song is from
-
 * If no song is provided then your program will default to "The Sign" by Ace of Base.
 
 *Song information is retrieved from the Spotify API.*
 
-3. `node liri.js movie-this '<movie name here>'`
+3. **movie-this**
+`node liri.js movie-this '<movie name here>'`
 
 * This will output the following information to your terminal/bash window:
 
-```
 * Title of the movie.
 * Year the movie came out.
 * IMDB Rating of the movie.
@@ -51,7 +43,6 @@ The file "liri.js" will send requests using the `axios` package to the Bands in 
 * Language of the movie.
 * Plot of the movie.
 * Actors in the movie.
-```
 
 * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 * If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
@@ -59,7 +50,8 @@ The file "liri.js" will send requests using the `axios` package to the Bands in 
 
 *Movie information is retrieved from the OMDB API.*
 
-4. `node liri.js do-what-it-says`
+4. **do-what-it-says**
+ `node liri.js do-what-it-says`
 
 * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
@@ -76,6 +68,24 @@ The file "liri.js" will send requests using the `axios` package to the Bands in 
 .env
 ```
 `.env` is the file that stores the Spotify keys.
+
+2. Resources
+
+*Visual Studio Code - text editor
+
+*Node.js
+
+*APIs/Packages:
+
+Spotify (https://developer.spotify.com/)
+OMDB (http://www.omdbapi.com)
+Bands In Town (http://www.artists.bandsintown.com/bandsintown-api)
+NPM Packages:
+
+Node-Spotify-API (https://www.npmjs.com/package/node-spotify-api)
+Axios (https://www.npmjs.com/package/axios)
+Moment (https://www.npmjs.com/package/moment)
+DotEnv (https://www.npmjs.com/package/dotenv)
 
 
 
