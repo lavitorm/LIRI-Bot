@@ -43,10 +43,10 @@ The file "liri.js" will send requests using the `axios` package to the Bands in 
 * Language of the movie.
 * Plot of the movie.
 * Actors in the movie.
-*
-* If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-* If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
-* It's on Netflix!
+
+**If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'*
+**If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>*
+**It's on Netflix!*
 
 *Movie information is retrieved from the OMDB API.*
 
