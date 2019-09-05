@@ -43,7 +43,7 @@ The file "liri.js" will send requests using the `axios` package to the Bands in 
 * Language of the movie.
 * Plot of the movie.
 * Actors in the movie.
-
+*
 * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 * If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
 * It's on Netflix!
@@ -63,7 +63,8 @@ The file "liri.js" will send requests using the `axios` package to the Bands in 
 
 1. A `.gitignore` file was created to tell git not to track, and thus not to commit the following files to Github:
 
-```node_modules
+```
+node_modules
 .DS_Store
 .env
 ```
@@ -77,15 +78,16 @@ The file "liri.js" will send requests using the `axios` package to the Bands in 
 
 *APIs/Packages:
 
-Spotify (https://developer.spotify.com/)
-OMDB (http://www.omdbapi.com)
-Bands In Town (http://www.artists.bandsintown.com/bandsintown-api)
-NPM Packages:
+*Spotify (https://developer.spotify.com/)
+*OMDB (http://www.omdbapi.com)
+*Bands In Town (http://www.artists.bandsintown.com/bandsintown-api)
 
-Node-Spotify-API (https://www.npmjs.com/package/node-spotify-api)
-Axios (https://www.npmjs.com/package/axios)
-Moment (https://www.npmjs.com/package/moment)
-DotEnv (https://www.npmjs.com/package/dotenv)
+*NPM Packages:
+
+*Node-Spotify-API (https://www.npmjs.com/package/node-spotify-api)
+*Axios (https://www.npmjs.com/package/axios)
+*Moment (https://www.npmjs.com/package/moment)
+*DotEnv (https://www.npmjs.com/package/dotenv)
 
 
 
